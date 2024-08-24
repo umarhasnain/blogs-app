@@ -14,12 +14,12 @@
 
 .innerDiv{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 20px;
-    height: 450px;
+    gap: 15px;
+    height: 500px;
     width: 300px;
     background-color: whitesmoke;
     border-radius: 30px;
@@ -55,8 +55,24 @@ input{
     cursor: pointer;
   }
 
-  .heading_Sign{
+  .my_btn1{
+    height: 40px;
+    width: 200px;
+    background-color: #3FA2F6;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+  }
+
+  .heading_Sign > h1{
     color: #3FA2F6;
-    padding-top: 10px;
+    padding-top: 0px;
+    font-size: 25px;
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
   }
   
