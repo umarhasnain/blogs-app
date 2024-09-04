@@ -2,14 +2,12 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/fireba
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCINDORJtIhwTRj5Sl2Ef78E79Jm8cg5G8",
-    authDomain: "ecommerce-app-87bd8.firebaseapp.com",
-    databaseURL: "https://ecommerce-app-87bd8-default-rtdb.firebaseio.com",
-    projectId: "ecommerce-app-87bd8",
-    storageBucket: "ecommerce-app-87bd8.appspot.com",
-    messagingSenderId: "201414120975",
-    appId: "1:201414120975:web:2c2b8e41fcd5211cc7f57a",
-    measurementId: "G-SZZY1EL2T9"
+  apiKey: "AIzaSyDO-478xaltJCjezpfRB-OU2g_4kXcRjRU",
+    authDomain: "blog-app0.firebaseapp.com",
+    projectId: "blog-app0",
+    storageBucket: "blog-app0.appspot.com",
+    messagingSenderId: "509053694593",
+    appId: "1:509053694593:web:06f42a5eea14ed6ebd1380"
 }
 
 // Initialize Firebase
