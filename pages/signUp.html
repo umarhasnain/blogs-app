@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles/signup.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css"
-      integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <div class="main_div">
-      <div class="innerDiv">
-        <div class="heading_Sign">
-          <h1>SIGN UP</h1>
-        </div>
-        <input type="text" placeholder="Enter Your Name" />
-        <input type="email" placeholder="Enter Your Email" />
-        <input type="password" placeholder="Enter Your Password" />
-        <button class="my_btn" type="submit">
-          <i class="fa-solid fa-right-to-bracket"></i>
-          SignUp
-        </button>
-        <button class="my_btn1" type="submit">
-          <!-- <i class="fa-brands fa-google"></i> -->
-          <img src="../images/google.png" " height="20px" width="40px" alt=""
-          srcset=""> SignUp With Google
-        </button>
-        <p>Already have an account? <a href="../pages/login.html" style="color: #3FA2F6; border: none;">Sign in</a></p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles/signup.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css"
+    integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles/index-var.css">
+  </link>
+  <script src="../scripts/index-var.js"></script>
+</head>
+</head>
+
+<body>
+  <div class="main_div">
+    <div class="innerDiv">
+      <div class="heading_Sign">
+        <h1>SIGN UP</h1>
+      </div>
+      <input type="text" id="signupName" placeholder="Enter Your Name" />
+      <input type="email" id="signupEmail" placeholder="Enter Your Email" />
+      <input type="password" id="signupPassword" placeholder="Enter Your Password" />
+      <button class="my_btn" id="signupBtn" type="submit">
+        <i class="fa-solid fa-right-to-bracket"></i>
+        SignUp
+      </button>
+      <button class="my_btn1" id="googleSignUp" type="submit">
+        <!-- <i class="fa-brands fa-google"></i> -->
+        <img src="../images/google.png" " height=" 20px" width="40px" alt="" srcset=""> SignUp With Google
+      </button>
+      <p>Already have an account? <a href="../pages/login.html" style="color: #3FA2F6; border: none;">Sign in</a></p>
     </div>
-    </div>
-  </body>
+  </div>
+
+  <script type="module" src="../scripts/loginSignup.js"></script>
+</body>
+
 </html>

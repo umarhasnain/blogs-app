@@ -10,17 +10,18 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 40px;
+    width: 100%;
 }
 
 .innerDiv{
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 15px;
     height: 500px;
-    width: 300px;
+    width: auto;
     background-color: whitesmoke;
     border-radius: 30px;
     border-style: outset;
@@ -31,8 +32,8 @@
 input{
     width: 250px;
     height: 40px;
-    padding: 5px;
-    margin: 10px;
+    padding: 10px;
+    /* margin: 10px; */
     padding-left: 10px;
     border: none;
     border-bottom: 2px solid #3FA2F6;
